@@ -40,3 +40,8 @@ vim.keymap.set("n", "<leader>rc", "<Cmd>e ~/.config/nvim/init.lua<CR>", { desc =
 -- File Explorer
 vim.keymap.set("n", "<leader>m", "<Cmd>NvimTreeFocus<CR>", { desc = "Focus on File Explorer" })
 vim.keymap.set("n", "<leader>e", "<Cmd>NvimTreeToggle<CR>", { desc = "Toggle File Explorer" })
+
+-- Enable Copilot
+vim.keymap.set("n", "<leader>cpe", ":Copilot enable<cr>", { desc = "Enable Copilot" })
+-- Disable Copilot
+vim.keymap.set("n", "<leader>cpd", ":Copilot disable<cr>", { desc = "Disable Copilot" })
